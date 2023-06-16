@@ -96,7 +96,7 @@ body {
 
 
 .header {
-    background: url(/img/hero-img.jpg) no-repeat;
+    background: url(../img/hero-img.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding: 200px 0;
@@ -627,7 +627,7 @@ body {
 }
 
 .middle {
-    background: url(../../img/image-15-min.jpg) no-repeat;
+    background: url(../img/image-15-min.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: center;
