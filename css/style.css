@@ -1,0 +1,1541 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Lora', serif; */
+
+
+
+
+
+}
+
+::selection {
+    background-color: #dba367;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.top-logo {
+    text-align: center;
+
+}
+
+.top-logo img {
+    width: 230px;
+    margin: 20px 0;
+}
+
+
+.header {
+    background: url(../../img/hero-img.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 200px 0;
+    position: relative;
+    z-index: 1;
+    /* background-position: center; */
+    /* background-position:  right; */
+}
+
+
+.header::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.header h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-weight: 700;
+    font-size: 70px;
+    color: #fff;
+}
+
+.header h4 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #f3efef;
+    position: relative;
+    padding: 20px 0;
+    padding-left: 50px;
+}
+
+.header h4::before {
+    content: "";
+    position: absolute;
+    left: -6px;
+    color: #fff;
+    right: 0px;
+    top: 0px;
+    bottom: 32px;
+    width: 50px;
+    border-bottom: 1px solid white;
+}
+
+.header h4::after {
+    content: "";
+    position: absolute;
+    color: #fff;
+    left: 176px;
+    right: 0;
+    top: 0px;
+    bottom: 33px;
+    width: 52px;
+    border-bottom: 1px solid white;
+}
+
+.header h3 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+}
+
+.groom {
+    text-align: center;
+}
+
+.groom h6 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 100px;
+}
+
+.groom h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+
+}
+
+.groom h1::before {
+    content: "";
+    position: absolute;
+    left: 514px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+}
+
+.groom h1::after {
+
+
+    content: "";
+    position: absolute;
+    left: 634px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+}
+
+.groom span {
+    color: #dba367;
+    font-size: 30px;
+    /* position: relative; */
+}
+
+.willie {
+    text-align: center;
+}
+
+.willie img {
+    width: 300px;
+    height: 300px;
+    margin-top: 70px;
+}
+
+.willie h1 {
+    font-size: 45px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+}
+
+.willie p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+
+}
+
+.willie span {
+    font-size: 30px;
+    color: #dba367;
+    transition: .2s linear;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.willie .icon-facebook-circled-1:hover {
+    opacity: 0.8;
+}
+
+.willie .icon-twitter-circled:hover {
+    opacity: 0.8;
+}
+
+.willie .icon-youtube-play:hover {
+    opacity: 0.8;
+}
+
+.rsvp {
+    text-align: center;
+}
+
+.rsvp .btn {
+    border-radius: 100px;
+    padding: 15px 45px;
+    color: #fff;
+    background-color: #dba367;
+    border: none;
+    transition: .3s linear;
+    cursor: pointer;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+.cap {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.cap h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cap p {
+
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    max-width: 515px;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.cap p::before {
+    content: "";
+    position: absolute;
+    left: 177px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+}
+
+.cap p::after {
+    content: "";
+    position: absolute;
+    left: 287px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+}
+
+.cap span {
+    color: #dba367;
+    font-size: 30px;
+    font-size: 30px;
+
+}
+
+.sweet h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+.sweet img {
+    width: 370px;
+    transition: .3s linear;
+}
+
+.sweet img:hover {
+    transform: translateY(-10px);
+}
+
+.sweet-img img {
+    margin-top: 20px;
+    transition: .3s linear;
+}
+
+.sweet-img img:hover {
+    transform: translateY(-10px);
+}
+
+.sweet-img2 img {
+    transition: .3s linear;
+}
+
+.sweet-img2 img:hover {
+    transform: translateY(-10px);
+}
+
+.sweet-img2 h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.our {
+    text-align: center;
+}
+
+.our h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.our p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    max-width: 515px;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.date {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.date h3 {
+    font-size: 25px;
+
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+}
+
+.date h2 {
+    font-size: 45px;
+
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+    /* color: #dba367; */
+    color: #e37e12;
+    padding: 10px 0;
+}
+
+.date p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    max-width: 304px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.two span {
+    color: #dba367;
+    font-size: 30px;
+
+}
+
+.two h3 {
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.two h3::before {
+    content: "";
+    position: absolute;
+    left: 125px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+}
+
+.two h3::after {
+    content: "";
+    position: absolute;
+    left: 223px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+}
+
+.vidio img {
+    width: 880px;
+    height: 470px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.vidio {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;
+}
+
+.our-main {
+    background: url(../../img/bg-2.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding-top: 100px;
+}
+
+.contact-are {
+    text-align: center;
+}
+
+.contact-are h1 {
+    font-family: 'Dancing Script', handwriting;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+
+.contact-are p {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Lora', serif;
+    max-width: 515px;
+    color: black;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.contact-are p::before {
+    content: "";
+    position: absolute;
+    left: 177px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+
+}
+
+.contact-are p::after {
+    content: "";
+    position: absolute;
+    left: 287px;
+    color: #dba367;
+    right: 0;
+    top: 0px;
+    bottom: -16px;
+    text-align: center;
+    width: 50px;
+    border-bottom: 1px solid #dba367;
+
+}
+
+.contact-are span {
+    color: #dba367;
+    font-size: 30px;
+}
+
+.form {
+    text-align: center;
+}
+
+.form input[type="text"] {
+    border: 1px solid #dddddd;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+
+.form #subject {
+    border: 1px solid #dddddd;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px;
+    width: 604px;
+}
+
+.form input[type="number"] {
+    border: 1px solid #dddddd;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px;
+    width: 604px;
+    margin-bottom: 20px;
+}
+
+.form textarea {
+    border: 1px solid #dddddd;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 12px;
+    width: 604px;
+    margin-bottom: 20px;
+    overflow: auto;
+    resize: both;
+    height: 120px;
+}
+
+.form input[type="submit"] {
+    padding: 15px 45px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    background-color: #e37e12;
+    font-family: 'Lora', serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    word-spacing: 2px;
+}
+
+.middle {
+    background: url(../../img/image-15-min.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+    margin-top: 200px;
+
+
+}
+
+.middle::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.middle h1 {
+    font-weight: normal;
+    font-family: 'Dancing Script', handwriting;
+    font-size: 80px;
+    color: #fff;
+}
+
+.middle h3 {
+    font-size: 45px;
+
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+    color: #fff;
+    padding-top: 10px;
+}
+
+.ceremony {
+    text-align: center;
+    /* width: 230px; */
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* padding-top: 50px; */
+    padding: 100px 50px;
+    width: 542px;
+    transition: .3s linear;
+
+
+}
+
+
+.ceremony:hover {
+    transform: translateY(10px);
+}
+
+.ceremony h1 {
+    font-size: 45px;
+
+    font-weight: 700;
+    font-family: 'Dancing Script', handwriting;
+    position: relative;
+    border-bottom: 1px solid #e37e12;
+    padding-bottom: 20px;
+    width: 230px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+
+
+.ceremony p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 217px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+}
+
+.ceremony a {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+    transition: .3s linear;
+}
+
+.ceremony a:hover {
+    color: #e37e12;
+}
+
+.ceremony span {
+    color: black;
+    font-size: 18px;
+    transition: .3s linear;
+}
+
+.ceremony span:hover {
+    color: #e37e12;
+}
+
+.eleven {
+    padding-bottom: 30px;
+}
+
+.photo {
+    text-align: center;
+    border-bottom: 1px solid #e37e12;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.photo img {
+    margin-top: 150px;
+
+}
+
+.photo h1 {
+    font-size: 67px;
+    font-family: 'Dancing Script', handwriting;
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+.photo span {
+    font-size: 35px;
+    color: #e37e12;
+    opacity: 1;
+    cursor: pointer;
+    transition: .3s linear;
+
+}
+
+
+.photo .icon-facebook-circled-1:hover {
+    opacity: 0.8;
+}
+
+.photo .icon-twitter-circled:hover {
+    opacity: 0.8;
+}
+
+.photo .icon-youtube-play:hover {
+    opacity: 0.8;
+}
+
+.watch {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.watch a {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: .3s linear;
+
+}
+
+.watch a:hover {
+    color: #e37e12;
+}
+
+.watch span {
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #dba367;
+}
+
+.footer p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+/* ================================================= Media Queries ======================================================= */
+/* ================================================= Media Queries ======================================================= */
+
+
+@media screen and (max-width: 1024px) {
+
+    .container {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .header {
+        background-position: center;
+    }
+
+    .header h1 {
+        padding-left: 10px;
+    }
+
+    .header h4 {
+        padding-left: 60px;
+    }
+
+    .header h4::before {
+        left: 7px;
+    }
+
+    .header h4::after {
+        left: 169px;
+    }
+
+    .header h3 {
+        padding-left: 10px;
+    }
+
+    .groom h1::before {
+        left: 434px;
+    }
+
+    .groom h1::after {
+        left: 543px;
+    }
+
+    .willie p {
+        font-size: 14px;
+        max-width: 473px;
+
+    }
+
+    .sweet img {
+        width: 299px;
+    }
+
+    .sweet-img img {
+        width: 321px;
+    }
+
+    .sweet-img2 img {
+        width: 329px;
+    }
+
+    .two h3::before {
+        left: 100px;
+    }
+
+    .two h3::after {
+        left: 194px;
+    }
+
+    .ceremony {
+        width: 459px;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+
+    .container {
+        max-width: 991px;
+        margin: 0 auto;
+    }
+
+    .top-logo img {
+        width: 200px;
+    }
+
+    .header {
+        background-position: center;
+        padding: 134px 0;
+    }
+
+    .top-logo img {
+        font-size: 60px;
+    }
+
+    .header h4 {
+        font-size: 16px;
+    }
+
+    .header h4::before {
+        left: 3px;
+    }
+
+    .header h4::after {
+        left: 158px;
+    }
+
+    .groom h1 {
+        font-size: 40px;
+    }
+
+    .groom h1::before {
+        left: 308px;
+    }
+
+    .groom h1::after {
+        left: 413px;
+    }
+
+    .willie img {
+        width: 264px;
+        height: 260px;
+
+    }
+
+    .willie h1 {
+        font-size: 40px;
+    }
+
+    .willie p {
+        font-size: 13px;
+        max-width: 300px;
+    }
+
+    .willie span {
+        font-size: 25px;
+    }
+
+    .rsvp .btn {
+        padding: 11px 38px;
+        font-size: 13px;
+    }
+
+    .cap h1 {
+        font-size: 40px;
+    }
+
+    .cap p {
+        font-size: 14px;
+    }
+
+    .sweet h1 {
+        font-size: 40px;
+    }
+
+    .sweet-img2 h1 {
+        font-size: 40px;
+    }
+
+    .sweet img {
+        width: 234px;
+    }
+
+    .sweet-img img {
+        width: 241px;
+    }
+
+    .sweet-img2 img {
+        width: 248px;
+    }
+
+    .our h1 {
+        font-size: 40px;
+    }
+
+    .our p {
+        font-size: 14px;
+        max-width: 482px;
+    }
+
+    .date h3 {
+        font-size: 22px;
+    }
+
+    .date h2 {
+        font-size: 40px;
+    }
+
+    .date p {
+        font-size: 14px;
+        max-width: 184px;
+    }
+
+    .two h3::before {
+        left: 57px;
+    }
+
+    .two h3::after {
+        left: 150px;
+
+    }
+
+    .vidio img {
+        width: 657px;
+    }
+
+    .contact-are h1 {
+        font-size: 40px;
+    }
+
+    .contact-are p {
+        font-size: 14px;
+    }
+
+
+
+    .form input[type="text"] {
+        padding: 9px;
+        width: 285px;
+        font-size: 14px;
+    }
+
+    .form #subject {
+        font-size: 14px;
+        padding: 9px;
+        width: 578px;
+    }
+
+    .form input[type="number"] {
+        font-size: 14px;
+        padding: 9px;
+        width: 578px;
+    }
+
+    .form textarea {
+        font-size: 14px;
+        width: 578px;
+        height: 100px;
+    }
+
+    .form input[type="submit"] {
+        padding: 11px 39px;
+        font-size: 13px;
+    }
+
+    .middle h1 {
+        font-size: 70px;
+    }
+
+    .middle h3 {
+        font-size: 40px;
+    }
+
+    .ceremony {
+        width: 342px;
+    }
+
+    .ceremony h1 {
+        font-size: 40px;
+    }
+
+    .ceremony p {
+        font-size: 15px;
+    }
+
+    .ceremony a {
+        font-size: 14px;
+    }
+
+    .photo img {
+        margin-top: 111px;
+        width: 265px;
+    }
+
+    .photo {
+        width: 441px;
+    }
+
+    .photo h1 {
+        font-size: 50px;
+    }
+
+    .photo span {
+        font-size: 25px;
+    }
+
+    .watch a {
+        font-size: 14px;
+    }
+
+    .watch {
+        padding-bottom: 80px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .container {
+        max-width: 767px;
+        margin: 0 auto;
+    }
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    .top-logo img {
+        width: 173px;
+    }
+    .header{
+        background-position: center;
+    }
+    .header h1{
+        font-size: 55px;
+    }
+    .header h4 {
+        font-size: 15px;
+    }
+    .header h4::before {
+        left: 14px;
+        width: 35px;
+    }
+    .header h4::after{
+        left: 149px;
+        width: 35px;
+    }
+    .header h3{
+        font-size: 40px;
+    }
+    .groom h1 {
+        font-size: 37px;
+    }
+    .groom h1::before {
+        left: 104px;
+        width: 35px;
+    }
+    .groom h1::after {
+        left: 182px;
+        width: 35px;
+    }
+    .groom span{
+        font-size: 25px;
+    }
+    .willie img {
+        width: 229px;
+      height: 225px;
+    }
+    .willie h1 {
+        font-size: 35px;
+    }
+    .willie p {
+        font-size: 12px;
+        max-width: 246px;
+    }
+    .willie span {
+        font-size: 20px;
+    }
+
+    .rsvp .btn {
+        padding: 9px 31px;
+        font-size: 12px;
+        margin-bottom: 64px;
+    }
+    .cap h1 {
+        font-size: 35px;
+    }
+    .cap p {
+        font-size: 13px;
+        max-width: 237px;
+    }
+    .cap span{
+        font-size: 25px;
+    }
+    .cap p::before{
+        width: 35px;
+        left: 66px;
+    }
+    .cap p::after{
+        width: 35px;
+        left: 132px;
+    }
+    .sweet h1 {
+        font-size: 35px;
+        padding-top: 4px;
+        padding-bottom: 76px;
+    }
+    .sweet img {
+        width: 320px;
+    }
+    .sweet-img img{
+        width: 320px;
+    }
+    .sweet-img2 img{
+        width: 320px;
+    }
+    .sweet-img2 h1 {
+        font-size: 35px;
+        padding-top: 56px;
+    }
+    .two span{
+        font-size: 25px;
+    }
+    .two h3::before {
+        left: 107px;
+        width: 35px;
+    }
+    .two h3::after {
+        left: 175px;
+        width: 35px;
+    }
+    .vidio img {
+        width: 320px;
+        height: 389px;
+    }
+    .contact-are h1{
+        font-size: 35px;
+    }
+    .contact-are p {
+        font-size: 13px;
+        max-width: 238px;
+    }
+    .contact-are span{
+        font-size: 25px;
+    }
+    .contact-are p::before{
+        width: 35px;
+        left: 66px;
+    }
+    .contact-are p::after{
+        width: 35px;
+        left: 140px;
+    }
+    .form input[type="text"] {
+        padding: 7px;
+        width: 193px;
+        font-size: 13px;
+    }
+
+    .form #subject {
+        font-size: 14px;
+        padding: 7px;
+        width: 249px;
+    }
+    .form input[type="number"]{
+        font-size: 14px;
+        padding: 7px;
+        width: 249px;
+    }
+    .form textarea{
+        font-size: 14px;
+      padding: 7px;
+        width: 249px;
+        height: 90px;
+    }
+    .form input[type="submit"] {
+        padding: 8px 28px;
+        font-size: 12px;
+    }
+    .middle{
+   margin-top: 112px;
+   background-position: center;
+    }
+    .middle h1{
+        font-size: 60px;
+    }
+    .middle h3{
+        font-size: 28px;
+    }
+    .ceremony {
+        width: 267px;
+        margin-top: 40px;
+    }
+    .ceremony h1 {
+        font-size: 35px;
+        width: 150px;
+    }
+    .ceremony p {
+        font-size: 13px;
+        max-width: 138px;
+    }
+    .ceremony a {
+        font-size: 13px;
+    }
+    .photo{
+        width: 320px;
+    }
+    .photo img{
+        width: 223px;
+    }
+    .photo h1{
+        font-size: 31px;
+    }
+    .photo span {
+        font-size: 20px;
+    }
+    .watch a {
+        font-size: 12px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?94811034');
+    src: url('../font/fontello.eot?94811034#iefix') format('embedded-opentype'),
+        url('../font/fontello.svg?94811034#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('data:application/octet-stream;base64,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') format('woff'),
+        url('data:application/octet-stream;base64,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') format('truetype');
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+      font-family: 'fontello';
+      src: url('../font/fontello.svg?94811034#fontello') format('svg');
+    }
+  }
+  */
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+
+    /* Font smoothing. That was taken from TWBS */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-minus:before {
+    content: '\e800';
+}
+
+/* '' */
+.icon-heart-empty:before {
+    content: '\e801';
+}
+
+/* '' */
+.icon-heart-empty-1:before {
+    content: '\e802';
+}
+
+/* '' */
+.icon-right-dir:before {
+    content: '\e803';
+}
+
+/* '' */
+.icon-right:before {
+    content: '\e804';
+}
+
+/* '' */
+.icon-facebook-circled:before {
+    content: '\f051';
+}
+
+/* '' */
+.icon-youtube-play:before {
+    content: '\f16a';
+}
+
+/* '' */
+.icon-twitter-circled:before {
+    content: '\f30a';
+}
+
+/* '' */
+.icon-facebook-circled-1:before {
+    content: '\f30d';
+}
+
+/* '' */
