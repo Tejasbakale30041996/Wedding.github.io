@@ -106,7 +106,6 @@ body {
     /* background-position:  right; */
 }
 
-
 .header::after {
     position: absolute;
     content: "";
